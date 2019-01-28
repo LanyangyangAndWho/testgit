@@ -1,0 +1,1424 @@
+2019-01-14 18:32:50 -Starting Application on DESKTOP-8SGUHBA with PID 1032 (started by 张碧风 in I:\HOPU\data\门票销售系统\demo_springboot_ssm)
+2019-01-14 18:32:50 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-14 18:32:50 -No active profile set, falling back to default profiles: default
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\BaseMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\DiscountMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsDetailsMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsTypeMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersTitleBlockMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\SkuMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\TypeAttributeMapper.class]
+2019-01-14 18:32:51 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\UserMapper.class]
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'baseMapper' and 'com.myhopu.mapper.BaseMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'baseMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'discountMapper' and 'com.myhopu.mapper.DiscountMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'discountMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'goodsDetailsMapper' and 'com.myhopu.mapper.GoodsDetailsMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'goodsDetailsMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'goodsMapper' and 'com.myhopu.mapper.GoodsMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'goodsTypeMapper' and 'com.myhopu.mapper.GoodsTypeMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'goodsTypeMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'ordersMapper' and 'com.myhopu.mapper.OrdersMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'ordersMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'ordersTitleBlockMapper' and 'com.myhopu.mapper.OrdersTitleBlockMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'ordersTitleBlockMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'skuMapper' and 'com.myhopu.mapper.SkuMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'skuMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'typeAttributeMapper' and 'com.myhopu.mapper.TypeAttributeMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'typeAttributeMapper'.
+2019-01-14 18:32:51 -Creating MapperFactoryBean with name 'userMapper' and 'com.myhopu.mapper.UserMapper' mapperInterface
+2019-01-14 18:32:51 -Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-14 18:32:53 -Initializing ProtocolHandler ["http-nio-80"]
+2019-01-14 18:32:53 -Starting service [Tomcat]
+2019-01-14 18:32:53 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 18:32:53 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_66/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_66/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_66/bin/../jre/lib/amd64;D:\app\zbf\product\11.2.0\dbhome_1\bin;D:\Apache Software Foundation\Tomcat 7.0\bin;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;H:\Program Files\VisualSVN Server\bin;H:\Program Files\TortoiseSVN\bin;C:\Users\张碧风\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_66\bin;D:\AppData\Local\Android\sdk\tools;D:\AppData\Local\Android\sdk\platform-tools;;D:\Apps\eclipse;;.]
+2019-01-14 18:32:53 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-14 18:32:53 -Initializing Spring embedded WebApplicationContext
+2019-01-14 18:32:54 -Init DruidDataSource
+2019-01-14 18:32:54 -{dataSource-1} inited
+2019-01-14 18:32:54 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-01-14 18:32:54 -Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.AttrName matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.AttrValue matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.Discount matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.Goods matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.GoodsType matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.GoodsTypeAttr matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.Orders matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.OrdersTitleBlock matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.RecipientInfo matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.Sku matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.TypeAttribute matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Checking to see if class com.myhopu.entity.User matches criteria [is assignable to Object]
+2019-01-14 18:32:54 -Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\DiscountMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsDetailsMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsTypeMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersTitleBlockMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\SkuMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\TypeAttributeMapper.xml]'
+2019-01-14 18:32:55 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\UserMapper.xml]'
+2019-01-14 18:32:55 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:32:55 -Loaded expression factory via original TCCL
+2019-01-14 18:32:55 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:32:55 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-01-14 18:32:55 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-01-14 18:32:55 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-01-14 18:32:55 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-01-14 18:32:55 -Trying to load META-INF/validation.xml via user class loader
+2019-01-14 18:32:55 -Trying to load META-INF/validation.xml via TCCL
+2019-01-14 18:32:55 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-01-14 18:32:55 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-01-14 18:32:55 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-01-14 18:32:55 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-01-14 18:32:55 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-01-14 18:32:55 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-01-14 18:32:55 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-01-14 18:32:56 -Starting ProtocolHandler ["http-nio-80"]
+2019-01-14 18:32:56 -Using a shared selector for servlet write/read
+2019-01-14 18:32:56 -Started Application in 6.984 seconds (JVM running for 9.695)
+2019-01-14 18:33:08 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-14 18:36:12 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.myhopu.mapper.DiscountMapper.findRow] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.myhopu.mapper.DiscountMapper.findRow
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy60.findRow(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy62.findRow(Unknown Source)
+	at com.myhopu.service.impl.DiscountServiceImpl.findRows(DiscountServiceImpl.java:28)
+	at com.myhopu.service.impl.DiscountServiceImpl.buytoday(DiscountServiceImpl.java:39)
+	at com.myhopu.service.impl.DiscountServiceImpl$$FastClassBySpringCGLIB$$aa17ad68.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.myhopu.service.impl.DiscountServiceImpl$$EnhancerBySpringCGLIB$$53ada2a6.buytoday(<generated>)
+	at com.myhopu.controller.DiscountController.buytoday(DiscountController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-01-14 18:36:50 -{dataSource-1} closed
+2019-01-14 18:36:52 -Starting Application on DESKTOP-8SGUHBA with PID 1032 (started by 张碧风 in I:\HOPU\data\门票销售系统\demo_springboot_ssm)
+2019-01-14 18:36:52 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-14 18:36:52 -No active profile set, falling back to default profiles: default
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\BaseMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\DiscountMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsDetailsMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsTypeMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersTitleBlockMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\SkuMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\TypeAttributeMapper.class]
+2019-01-14 18:36:53 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\UserMapper.class]
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'baseMapper' and 'com.myhopu.mapper.BaseMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'baseMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'discountMapper' and 'com.myhopu.mapper.DiscountMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'discountMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'goodsDetailsMapper' and 'com.myhopu.mapper.GoodsDetailsMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'goodsDetailsMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'goodsMapper' and 'com.myhopu.mapper.GoodsMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'goodsTypeMapper' and 'com.myhopu.mapper.GoodsTypeMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'goodsTypeMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'ordersMapper' and 'com.myhopu.mapper.OrdersMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'ordersMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'ordersTitleBlockMapper' and 'com.myhopu.mapper.OrdersTitleBlockMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'ordersTitleBlockMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'skuMapper' and 'com.myhopu.mapper.SkuMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'skuMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'typeAttributeMapper' and 'com.myhopu.mapper.TypeAttributeMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'typeAttributeMapper'.
+2019-01-14 18:36:53 -Creating MapperFactoryBean with name 'userMapper' and 'com.myhopu.mapper.UserMapper' mapperInterface
+2019-01-14 18:36:53 -Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-14 18:36:53 -Initializing ProtocolHandler ["http-nio-80"]
+2019-01-14 18:36:53 -Starting service [Tomcat]
+2019-01-14 18:36:53 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 18:36:53 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-14 18:36:53 -Initializing Spring embedded WebApplicationContext
+2019-01-14 18:36:53 -Init DruidDataSource
+2019-01-14 18:36:53 -{dataSource-2} inited
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.AttrName matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.AttrValue matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.Discount matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.Goods matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.GoodsType matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.GoodsTypeAttr matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.Orders matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.OrdersTitleBlock matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.RecipientInfo matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.Sku matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.TypeAttribute matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Checking to see if class com.myhopu.entity.User matches criteria [is assignable to Object]
+2019-01-14 18:36:53 -Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2019-01-14 18:36:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\DiscountMapper.xml]'
+2019-01-14 18:36:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsDetailsMapper.xml]'
+2019-01-14 18:36:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsMapper.xml]'
+2019-01-14 18:36:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsTypeMapper.xml]'
+2019-01-14 18:36:54 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersMapper.xml]'
+2019-01-14 18:36:54 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersTitleBlockMapper.xml]'
+2019-01-14 18:36:54 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\SkuMapper.xml]'
+2019-01-14 18:36:54 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\TypeAttributeMapper.xml]'
+2019-01-14 18:36:54 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\UserMapper.xml]'
+2019-01-14 18:36:54 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:36:54 -Loaded expression factory via original TCCL
+2019-01-14 18:36:54 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:36:54 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-01-14 18:36:54 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-01-14 18:36:54 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-01-14 18:36:54 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-01-14 18:36:54 -Trying to load META-INF/validation.xml via user class loader
+2019-01-14 18:36:54 -Trying to load META-INF/validation.xml via TCCL
+2019-01-14 18:36:54 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-01-14 18:36:54 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-01-14 18:36:54 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-01-14 18:36:54 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-01-14 18:36:54 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-01-14 18:36:54 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-01-14 18:36:54 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-01-14 18:36:54 -Starting ProtocolHandler ["http-nio-80"]
+2019-01-14 18:36:54 -Using a shared selector for servlet write/read
+2019-01-14 18:36:54 -Started Application in 2.36 seconds (JVM running for 247.957)
+2019-01-14 18:36:57 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-14 18:37:00 -Creating a new SqlSession
+2019-01-14 18:37:00 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c3a044]
+2019-01-14 18:37:00 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c3a044]
+2019-01-14 18:37:00 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c3a044]
+2019-01-14 18:37:00 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c3a044]
+2019-01-14 18:37:00 -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 't' in 'class java.lang.String'] with root cause
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 't' in 'class java.lang.String'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:419)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:164)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.scripting.xmltags.DynamicContext$ContextMap.get(DynamicContext.java:94)
+	at org.apache.ibatis.scripting.xmltags.DynamicContext$ContextAccessor.getProperty(DynamicContext.java:108)
+	at org.apache.ibatis.ognl.OgnlRuntime.getProperty(OgnlRuntime.java:2685)
+	at org.apache.ibatis.ognl.ASTProperty.getValueBody(ASTProperty.java:114)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.ASTChain.getValueBody(ASTChain.java:141)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.ASTNotEq.getValueBody(ASTNotEq.java:50)
+	at org.apache.ibatis.ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212)
+	at org.apache.ibatis.ognl.SimpleNode.getValue(SimpleNode.java:258)
+	at org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:470)
+	at org.apache.ibatis.ognl.Ognl.getValue(Ognl.java:434)
+	at org.apache.ibatis.scripting.xmltags.OgnlCache.getValue(OgnlCache.java:44)
+	at org.apache.ibatis.scripting.xmltags.ExpressionEvaluator.evaluateBoolean(ExpressionEvaluator.java:32)
+	at org.apache.ibatis.scripting.xmltags.IfSqlNode.apply(IfSqlNode.java:34)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:33)
+	at org.apache.ibatis.scripting.xmltags.TrimSqlNode.apply(TrimSqlNode.java:55)
+	at org.apache.ibatis.scripting.xmltags.MixedSqlNode.apply(MixedSqlNode.java:33)
+	at org.apache.ibatis.scripting.xmltags.DynamicSqlSource.getBoundSql(DynamicSqlSource.java:41)
+	at org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:292)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:81)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy59.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:83)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy91.findRow(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.findRow(Unknown Source)
+	at com.myhopu.service.impl.DiscountServiceImpl.findRows(DiscountServiceImpl.java:28)
+	at com.myhopu.service.impl.DiscountServiceImpl.buytoday(DiscountServiceImpl.java:39)
+	at com.myhopu.service.impl.DiscountServiceImpl$$FastClassBySpringCGLIB$$aa17ad68.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.myhopu.service.impl.DiscountServiceImpl$$EnhancerBySpringCGLIB$$53ada2a6.buytoday(<generated>)
+	at com.myhopu.controller.DiscountController.buytoday(DiscountController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-01-14 18:54:42 -{dataSource-2} closed
+2019-01-14 18:54:49 -Starting Application on DESKTOP-8SGUHBA with PID 1032 (started by 张碧风 in I:\HOPU\data\门票销售系统\demo_springboot_ssm)
+2019-01-14 18:54:49 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-14 18:54:49 -No active profile set, falling back to default profiles: default
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\BaseMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\DiscountMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsDetailsMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsTypeMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersTitleBlockMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\SkuMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\TypeAttributeMapper.class]
+2019-01-14 18:54:50 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\UserMapper.class]
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'baseMapper' and 'com.myhopu.mapper.BaseMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'baseMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'discountMapper' and 'com.myhopu.mapper.DiscountMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'discountMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'goodsDetailsMapper' and 'com.myhopu.mapper.GoodsDetailsMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'goodsDetailsMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'goodsMapper' and 'com.myhopu.mapper.GoodsMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'goodsTypeMapper' and 'com.myhopu.mapper.GoodsTypeMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'goodsTypeMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'ordersMapper' and 'com.myhopu.mapper.OrdersMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'ordersMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'ordersTitleBlockMapper' and 'com.myhopu.mapper.OrdersTitleBlockMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'ordersTitleBlockMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'skuMapper' and 'com.myhopu.mapper.SkuMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'skuMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'typeAttributeMapper' and 'com.myhopu.mapper.TypeAttributeMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'typeAttributeMapper'.
+2019-01-14 18:54:50 -Creating MapperFactoryBean with name 'userMapper' and 'com.myhopu.mapper.UserMapper' mapperInterface
+2019-01-14 18:54:50 -Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-14 18:54:51 -Initializing ProtocolHandler ["http-nio-80"]
+2019-01-14 18:54:51 -Starting service [Tomcat]
+2019-01-14 18:54:51 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 18:54:52 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-14 18:54:52 -Initializing Spring embedded WebApplicationContext
+2019-01-14 18:54:52 -Init DruidDataSource
+2019-01-14 18:54:52 -{dataSource-3} inited
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.AttrName matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.AttrValue matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.Discount matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.Goods matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.GoodsType matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.GoodsTypeAttr matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.Orders matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.OrdersTitleBlock matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.RecipientInfo matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.Sku matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.TypeAttribute matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Checking to see if class com.myhopu.entity.User matches criteria [is assignable to Object]
+2019-01-14 18:54:53 -Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\DiscountMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsDetailsMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsTypeMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersTitleBlockMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\SkuMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\TypeAttributeMapper.xml]'
+2019-01-14 18:54:53 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\UserMapper.xml]'
+2019-01-14 18:54:53 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:54:53 -Loaded expression factory via original TCCL
+2019-01-14 18:54:53 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:54:53 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-01-14 18:54:53 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-01-14 18:54:53 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-01-14 18:54:53 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-01-14 18:54:53 -Trying to load META-INF/validation.xml via user class loader
+2019-01-14 18:54:53 -Trying to load META-INF/validation.xml via TCCL
+2019-01-14 18:54:53 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-01-14 18:54:53 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-01-14 18:54:53 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-01-14 18:54:53 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-01-14 18:54:53 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-01-14 18:54:53 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-01-14 18:54:53 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-01-14 18:54:54 -Starting ProtocolHandler ["http-nio-80"]
+2019-01-14 18:54:54 -Using a shared selector for servlet write/read
+2019-01-14 18:54:54 -Started Application in 5.969 seconds (JVM running for 1328.078)
+2019-01-14 18:55:17 -{dataSource-3} closed
+2019-01-14 18:55:26 -Starting Application on DESKTOP-8SGUHBA with PID 1032 (started by 张碧风 in I:\HOPU\data\门票销售系统\demo_springboot_ssm)
+2019-01-14 18:55:26 -Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-14 18:55:26 -No active profile set, falling back to default profiles: default
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\BaseMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\DiscountMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsDetailsMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\GoodsTypeMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\OrdersTitleBlockMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\SkuMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\TypeAttributeMapper.class]
+2019-01-14 18:55:27 -Identified candidate component class: file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\com\myhopu\mapper\UserMapper.class]
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'baseMapper' and 'com.myhopu.mapper.BaseMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'baseMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'discountMapper' and 'com.myhopu.mapper.DiscountMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'discountMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'goodsDetailsMapper' and 'com.myhopu.mapper.GoodsDetailsMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'goodsDetailsMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'goodsMapper' and 'com.myhopu.mapper.GoodsMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'goodsMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'goodsTypeMapper' and 'com.myhopu.mapper.GoodsTypeMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'goodsTypeMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'ordersMapper' and 'com.myhopu.mapper.OrdersMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'ordersMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'ordersTitleBlockMapper' and 'com.myhopu.mapper.OrdersTitleBlockMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'ordersTitleBlockMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'skuMapper' and 'com.myhopu.mapper.SkuMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'skuMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'typeAttributeMapper' and 'com.myhopu.mapper.TypeAttributeMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'typeAttributeMapper'.
+2019-01-14 18:55:27 -Creating MapperFactoryBean with name 'userMapper' and 'com.myhopu.mapper.UserMapper' mapperInterface
+2019-01-14 18:55:27 -Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-14 18:55:28 -Initializing ProtocolHandler ["http-nio-80"]
+2019-01-14 18:55:28 -Starting service [Tomcat]
+2019-01-14 18:55:28 -Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 18:55:28 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-01-14 18:55:28 -Initializing Spring embedded WebApplicationContext
+2019-01-14 18:55:28 -Init DruidDataSource
+2019-01-14 18:55:28 -{dataSource-4} inited
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.AttrName matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.AttrValue matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.Discount matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.Goods matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.GoodsType matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.GoodsTypeAttr matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.Orders matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.OrdersTitleBlock matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.RecipientInfo matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.Sku matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.TypeAttribute matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Checking to see if class com.myhopu.entity.User matches criteria [is assignable to Object]
+2019-01-14 18:55:28 -Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\DiscountMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsDetailsMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\GoodsTypeMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\OrdersTitleBlockMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\SkuMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\TypeAttributeMapper.xml]'
+2019-01-14 18:55:28 -Parsed mapper file: 'file [I:\HOPU\data\门票销售系统\demo_springboot_ssm\target\classes\mapper\UserMapper.xml]'
+2019-01-14 18:55:29 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:55:29 -Loaded expression factory via original TCCL
+2019-01-14 18:55:29 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-01-14 18:55:29 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-01-14 18:55:29 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-01-14 18:55:29 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-01-14 18:55:29 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-01-14 18:55:29 -Trying to load META-INF/validation.xml via user class loader
+2019-01-14 18:55:29 -Trying to load META-INF/validation.xml via TCCL
+2019-01-14 18:55:29 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-01-14 18:55:29 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-01-14 18:55:29 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-01-14 18:55:29 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-01-14 18:55:29 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-01-14 18:55:29 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-01-14 18:55:29 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-01-14 18:55:29 -Starting ProtocolHandler ["http-nio-80"]
+2019-01-14 18:55:29 -Using a shared selector for servlet write/read
+2019-01-14 18:55:29 -Started Application in 2.774 seconds (JVM running for 1362.751)
+2019-01-14 18:55:35 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-14 18:55:37 -Creating a new SqlSession
+2019-01-14 18:55:37 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:37 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 18:55:37 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 18:55:37 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 18:55:38 -<==      Total: 1
+2019-01-14 18:55:38 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47] from current transaction
+2019-01-14 18:55:38 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 18:55:38 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 18:55:38 -<==      Total: 1
+2019-01-14 18:55:38 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47] from current transaction
+2019-01-14 18:55:38 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 18:55:38 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 18:55:38 -<==      Total: 0
+2019-01-14 18:55:38 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47] from current transaction
+2019-01-14 18:55:38 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 18:55:38 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 18:55:38 -<==      Total: 0
+2019-01-14 18:55:38 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f9e1b47]
+2019-01-14 18:55:38 -Creating a new SqlSession
+2019-01-14 18:55:38 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ec4e8]
+2019-01-14 18:55:38 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 18:55:38 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 18:55:38 -==> Parameters: 
+2019-01-14 18:55:38 -<==      Total: 1
+2019-01-14 18:55:38 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ec4e8]
+2019-01-14 18:55:38 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ec4e8]
+2019-01-14 18:55:38 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ec4e8]
+2019-01-14 18:55:38 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71ec4e8]
+2019-01-14 18:56:14 -Creating a new SqlSession
+2019-01-14 18:56:14 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 18:56:14 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 18:56:14 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 18:56:14 -<==      Total: 1
+2019-01-14 18:56:14 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd] from current transaction
+2019-01-14 18:56:14 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 18:56:14 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 18:56:14 -<==      Total: 1
+2019-01-14 18:56:14 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd] from current transaction
+2019-01-14 18:56:14 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 18:56:14 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 18:56:14 -<==      Total: 0
+2019-01-14 18:56:14 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd] from current transaction
+2019-01-14 18:56:14 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 18:56:14 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 18:56:14 -<==      Total: 0
+2019-01-14 18:56:14 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ed568fd]
+2019-01-14 18:56:14 -Creating a new SqlSession
+2019-01-14 18:56:14 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5086801b]
+2019-01-14 18:56:14 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 18:56:14 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 18:56:14 -==> Parameters: 
+2019-01-14 18:56:14 -<==      Total: 1
+2019-01-14 18:56:14 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5086801b]
+2019-01-14 18:56:14 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5086801b]
+2019-01-14 18:56:14 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5086801b]
+2019-01-14 18:56:14 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5086801b]
+2019-01-14 18:58:03 -Creating a new SqlSession
+2019-01-14 18:58:03 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 18:58:03 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 18:58:03 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 18:58:03 -<==      Total: 1
+2019-01-14 18:58:03 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e] from current transaction
+2019-01-14 18:58:03 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 18:58:03 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 18:58:03 -<==      Total: 1
+2019-01-14 18:58:03 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e] from current transaction
+2019-01-14 18:58:03 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 18:58:03 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 18:58:03 -<==      Total: 0
+2019-01-14 18:58:03 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e] from current transaction
+2019-01-14 18:58:03 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 18:58:03 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 18:58:03 -<==      Total: 0
+2019-01-14 18:58:03 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@794bc1e]
+2019-01-14 18:58:03 -Creating a new SqlSession
+2019-01-14 18:58:03 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aacd4ea]
+2019-01-14 18:58:03 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 18:58:03 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 18:58:03 -==> Parameters: 
+2019-01-14 18:58:03 -<==      Total: 1
+2019-01-14 18:58:03 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aacd4ea]
+2019-01-14 18:58:03 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aacd4ea]
+2019-01-14 18:58:03 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aacd4ea]
+2019-01-14 18:58:03 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5aacd4ea]
+2019-01-14 19:03:30 -Creating a new SqlSession
+2019-01-14 19:03:30 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:03:30 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:03:30 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:03:30 -<==      Total: 1
+2019-01-14 19:03:30 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657] from current transaction
+2019-01-14 19:03:30 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:03:30 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:03:30 -<==      Total: 1
+2019-01-14 19:03:30 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657] from current transaction
+2019-01-14 19:03:30 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:03:30 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:03:30 -<==      Total: 1
+2019-01-14 19:03:30 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657] from current transaction
+2019-01-14 19:03:30 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:03:30 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:03:30 -<==      Total: 1
+2019-01-14 19:03:30 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5fa22657]
+2019-01-14 19:03:30 -Creating a new SqlSession
+2019-01-14 19:03:30 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c453e7c]
+2019-01-14 19:03:30 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:03:30 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:03:30 -==> Parameters: 
+2019-01-14 19:03:30 -<==      Total: 2
+2019-01-14 19:03:30 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c453e7c]
+2019-01-14 19:03:30 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c453e7c]
+2019-01-14 19:03:30 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c453e7c]
+2019-01-14 19:03:30 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c453e7c]
+2019-01-14 19:07:55 -Creating a new SqlSession
+2019-01-14 19:07:55 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:07:55 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:07:55 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:07:55 -<==      Total: 1
+2019-01-14 19:07:55 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd] from current transaction
+2019-01-14 19:07:55 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:07:55 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:07:55 -<==      Total: 1
+2019-01-14 19:07:55 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd] from current transaction
+2019-01-14 19:07:55 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:07:55 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:07:55 -<==      Total: 1
+2019-01-14 19:07:55 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd] from current transaction
+2019-01-14 19:07:55 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:07:55 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:07:55 -<==      Total: 1
+2019-01-14 19:07:55 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c1839bd]
+2019-01-14 19:07:55 -Creating a new SqlSession
+2019-01-14 19:07:55 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@622f79ff]
+2019-01-14 19:07:55 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:07:55 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:07:55 -==> Parameters: 
+2019-01-14 19:07:55 -<==      Total: 2
+2019-01-14 19:07:55 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@622f79ff]
+2019-01-14 19:07:55 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@622f79ff]
+2019-01-14 19:07:55 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@622f79ff]
+2019-01-14 19:07:55 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@622f79ff]
+2019-01-14 19:09:05 -Creating a new SqlSession
+2019-01-14 19:09:05 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:09:05 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:09:05 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:09:05 -<==      Total: 1
+2019-01-14 19:09:05 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff] from current transaction
+2019-01-14 19:09:05 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:09:05 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:09:05 -<==      Total: 1
+2019-01-14 19:09:05 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff] from current transaction
+2019-01-14 19:09:05 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:09:05 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:09:05 -<==      Total: 1
+2019-01-14 19:09:05 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff] from current transaction
+2019-01-14 19:09:05 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:09:05 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:09:05 -<==      Total: 1
+2019-01-14 19:09:05 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a49f0ff]
+2019-01-14 19:09:05 -Creating a new SqlSession
+2019-01-14 19:09:05 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b23decd]
+2019-01-14 19:09:05 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:09:05 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:09:05 -==> Parameters: 
+2019-01-14 19:09:05 -<==      Total: 2
+2019-01-14 19:09:05 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b23decd]
+2019-01-14 19:09:05 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b23decd]
+2019-01-14 19:09:05 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b23decd]
+2019-01-14 19:09:05 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b23decd]
+2019-01-14 19:09:42 -Creating a new SqlSession
+2019-01-14 19:09:42 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:09:42 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:09:42 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:09:42 -<==      Total: 1
+2019-01-14 19:09:42 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a] from current transaction
+2019-01-14 19:09:42 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:09:42 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:09:42 -<==      Total: 1
+2019-01-14 19:09:42 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a] from current transaction
+2019-01-14 19:09:42 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:09:42 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:09:42 -<==      Total: 1
+2019-01-14 19:09:42 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a] from current transaction
+2019-01-14 19:09:42 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:09:42 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:09:42 -<==      Total: 1
+2019-01-14 19:09:42 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52ef4f6a]
+2019-01-14 19:09:42 -Creating a new SqlSession
+2019-01-14 19:09:42 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243ba7b7]
+2019-01-14 19:09:42 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:09:42 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:09:42 -==> Parameters: 
+2019-01-14 19:09:42 -<==      Total: 2
+2019-01-14 19:09:42 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243ba7b7]
+2019-01-14 19:09:42 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243ba7b7]
+2019-01-14 19:09:42 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243ba7b7]
+2019-01-14 19:09:42 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243ba7b7]
+2019-01-14 19:14:35 -Creating a new SqlSession
+2019-01-14 19:14:35 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:14:35 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:14:35 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:14:35 -<==      Total: 1
+2019-01-14 19:14:35 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8] from current transaction
+2019-01-14 19:14:35 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:14:35 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:14:35 -<==      Total: 1
+2019-01-14 19:14:35 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8] from current transaction
+2019-01-14 19:14:35 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:14:35 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:14:35 -<==      Total: 1
+2019-01-14 19:14:35 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8] from current transaction
+2019-01-14 19:14:35 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:14:35 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:14:35 -<==      Total: 1
+2019-01-14 19:14:35 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b96ffb8]
+2019-01-14 19:14:35 -Creating a new SqlSession
+2019-01-14 19:14:35 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f5324cc]
+2019-01-14 19:14:35 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:14:35 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:14:35 -==> Parameters: 
+2019-01-14 19:14:35 -<==      Total: 2
+2019-01-14 19:14:35 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f5324cc]
+2019-01-14 19:14:35 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f5324cc]
+2019-01-14 19:14:35 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f5324cc]
+2019-01-14 19:14:35 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f5324cc]
+2019-01-14 19:15:25 -Creating a new SqlSession
+2019-01-14 19:15:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:15:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:15:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:15:25 -<==      Total: 1
+2019-01-14 19:15:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c] from current transaction
+2019-01-14 19:15:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:15:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:15:25 -<==      Total: 1
+2019-01-14 19:15:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c] from current transaction
+2019-01-14 19:15:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:15:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:15:25 -<==      Total: 1
+2019-01-14 19:15:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c] from current transaction
+2019-01-14 19:15:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:15:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:15:25 -<==      Total: 1
+2019-01-14 19:15:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d52fa4c]
+2019-01-14 19:15:25 -Creating a new SqlSession
+2019-01-14 19:15:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a19213e]
+2019-01-14 19:15:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:15:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:15:25 -==> Parameters: 
+2019-01-14 19:15:25 -<==      Total: 2
+2019-01-14 19:15:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a19213e]
+2019-01-14 19:15:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a19213e]
+2019-01-14 19:15:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a19213e]
+2019-01-14 19:15:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a19213e]
+2019-01-14 19:17:18 -Creating a new SqlSession
+2019-01-14 19:17:18 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:17:18 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:17:18 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:17:18 -<==      Total: 1
+2019-01-14 19:17:18 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe] from current transaction
+2019-01-14 19:17:18 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:17:18 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:17:18 -<==      Total: 1
+2019-01-14 19:17:18 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe] from current transaction
+2019-01-14 19:17:18 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:17:18 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:17:18 -<==      Total: 1
+2019-01-14 19:17:18 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe] from current transaction
+2019-01-14 19:17:18 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:17:18 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:17:18 -<==      Total: 1
+2019-01-14 19:17:18 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420b2cbe]
+2019-01-14 19:17:18 -Creating a new SqlSession
+2019-01-14 19:17:18 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5393fb]
+2019-01-14 19:17:18 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:17:18 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:17:18 -==> Parameters: 
+2019-01-14 19:17:18 -<==      Total: 2
+2019-01-14 19:17:18 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5393fb]
+2019-01-14 19:17:18 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5393fb]
+2019-01-14 19:17:18 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5393fb]
+2019-01-14 19:17:18 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5393fb]
+2019-01-14 19:19:25 -Creating a new SqlSession
+2019-01-14 19:19:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:19:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:19:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:19:25 -<==      Total: 1
+2019-01-14 19:19:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b] from current transaction
+2019-01-14 19:19:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:19:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:19:25 -<==      Total: 1
+2019-01-14 19:19:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b] from current transaction
+2019-01-14 19:19:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:19:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:19:25 -<==      Total: 1
+2019-01-14 19:19:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b] from current transaction
+2019-01-14 19:19:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:19:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:19:25 -<==      Total: 1
+2019-01-14 19:19:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61717d1b]
+2019-01-14 19:19:25 -Creating a new SqlSession
+2019-01-14 19:19:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2db084a8]
+2019-01-14 19:19:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:19:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:19:25 -==> Parameters: 
+2019-01-14 19:19:25 -<==      Total: 2
+2019-01-14 19:19:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2db084a8]
+2019-01-14 19:19:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2db084a8]
+2019-01-14 19:19:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2db084a8]
+2019-01-14 19:19:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2db084a8]
+2019-01-14 19:30:40 -Creating a new SqlSession
+2019-01-14 19:30:40 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:30:40 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:30:40 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:30:40 -<==      Total: 1
+2019-01-14 19:30:40 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803] from current transaction
+2019-01-14 19:30:40 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:30:40 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:30:40 -<==      Total: 1
+2019-01-14 19:30:40 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803] from current transaction
+2019-01-14 19:30:40 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:30:40 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:30:40 -<==      Total: 1
+2019-01-14 19:30:40 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803] from current transaction
+2019-01-14 19:30:40 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:30:40 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:30:40 -<==      Total: 1
+2019-01-14 19:30:40 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6033a803]
+2019-01-14 19:30:40 -Creating a new SqlSession
+2019-01-14 19:30:40 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a202b1]
+2019-01-14 19:30:40 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:30:40 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:30:40 -==> Parameters: 
+2019-01-14 19:30:40 -<==      Total: 2
+2019-01-14 19:30:40 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a202b1]
+2019-01-14 19:30:40 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a202b1]
+2019-01-14 19:30:40 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a202b1]
+2019-01-14 19:30:40 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61a202b1]
+2019-01-14 19:35:24 -Creating a new SqlSession
+2019-01-14 19:35:24 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:35:24 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:35:24 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:35:24 -<==      Total: 1
+2019-01-14 19:35:24 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4] from current transaction
+2019-01-14 19:35:24 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:35:24 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:35:24 -<==      Total: 1
+2019-01-14 19:35:24 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4] from current transaction
+2019-01-14 19:35:24 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:35:24 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:35:24 -<==      Total: 1
+2019-01-14 19:35:24 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4] from current transaction
+2019-01-14 19:35:24 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:35:24 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:35:24 -<==      Total: 1
+2019-01-14 19:35:24 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51ebe4d4]
+2019-01-14 19:35:24 -Creating a new SqlSession
+2019-01-14 19:35:24 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@152c6de4]
+2019-01-14 19:35:24 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:35:24 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:35:24 -==> Parameters: 
+2019-01-14 19:35:24 -<==      Total: 2
+2019-01-14 19:35:24 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@152c6de4]
+2019-01-14 19:35:24 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@152c6de4]
+2019-01-14 19:35:24 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@152c6de4]
+2019-01-14 19:35:24 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@152c6de4]
+2019-01-14 19:35:39 -Creating a new SqlSession
+2019-01-14 19:35:39 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:35:39 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:35:39 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:35:39 -<==      Total: 1
+2019-01-14 19:35:39 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b] from current transaction
+2019-01-14 19:35:39 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:35:39 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:35:39 -<==      Total: 1
+2019-01-14 19:35:39 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b] from current transaction
+2019-01-14 19:35:39 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:35:39 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:35:39 -<==      Total: 1
+2019-01-14 19:35:39 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b] from current transaction
+2019-01-14 19:35:39 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:35:39 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:35:39 -<==      Total: 1
+2019-01-14 19:35:39 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3102312b]
+2019-01-14 19:35:39 -Creating a new SqlSession
+2019-01-14 19:35:39 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ef3c9e]
+2019-01-14 19:35:39 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:35:39 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:35:39 -==> Parameters: 
+2019-01-14 19:35:39 -<==      Total: 2
+2019-01-14 19:35:39 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ef3c9e]
+2019-01-14 19:35:39 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ef3c9e]
+2019-01-14 19:35:39 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ef3c9e]
+2019-01-14 19:35:39 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25ef3c9e]
+2019-01-14 19:36:08 -Creating a new SqlSession
+2019-01-14 19:36:08 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:36:08 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:36:08 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:36:08 -<==      Total: 1
+2019-01-14 19:36:08 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f] from current transaction
+2019-01-14 19:36:08 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:36:08 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:36:08 -<==      Total: 1
+2019-01-14 19:36:08 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f] from current transaction
+2019-01-14 19:36:08 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:36:08 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:36:08 -<==      Total: 1
+2019-01-14 19:36:08 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f] from current transaction
+2019-01-14 19:36:08 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:36:08 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:36:08 -<==      Total: 1
+2019-01-14 19:36:08 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2794709f]
+2019-01-14 19:36:08 -Creating a new SqlSession
+2019-01-14 19:36:08 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38897ca]
+2019-01-14 19:36:08 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:36:08 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:36:08 -==> Parameters: 
+2019-01-14 19:36:08 -<==      Total: 2
+2019-01-14 19:36:08 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38897ca]
+2019-01-14 19:36:08 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38897ca]
+2019-01-14 19:36:08 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38897ca]
+2019-01-14 19:36:08 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38897ca]
+2019-01-14 19:37:12 -Creating a new SqlSession
+2019-01-14 19:37:12 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:37:12 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:37:12 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:37:12 -<==      Total: 1
+2019-01-14 19:37:12 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da] from current transaction
+2019-01-14 19:37:12 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:37:12 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:37:12 -<==      Total: 1
+2019-01-14 19:37:12 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da] from current transaction
+2019-01-14 19:37:12 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:37:12 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:37:12 -<==      Total: 1
+2019-01-14 19:37:12 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da] from current transaction
+2019-01-14 19:37:12 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:37:12 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:37:12 -<==      Total: 1
+2019-01-14 19:37:12 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fdb99da]
+2019-01-14 19:37:12 -Creating a new SqlSession
+2019-01-14 19:37:12 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7beb70]
+2019-01-14 19:37:12 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:37:12 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:37:12 -==> Parameters: 
+2019-01-14 19:37:12 -<==      Total: 2
+2019-01-14 19:37:12 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7beb70]
+2019-01-14 19:37:12 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7beb70]
+2019-01-14 19:37:12 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7beb70]
+2019-01-14 19:37:12 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f7beb70]
+2019-01-14 19:38:28 -Creating a new SqlSession
+2019-01-14 19:38:28 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:38:28 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:38:28 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:38:28 -<==      Total: 1
+2019-01-14 19:38:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1] from current transaction
+2019-01-14 19:38:28 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:38:28 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:38:28 -<==      Total: 1
+2019-01-14 19:38:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1] from current transaction
+2019-01-14 19:38:28 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:38:28 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:38:28 -<==      Total: 1
+2019-01-14 19:38:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1] from current transaction
+2019-01-14 19:38:28 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:38:28 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:38:28 -<==      Total: 1
+2019-01-14 19:38:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@369c2ed1]
+2019-01-14 19:38:28 -Creating a new SqlSession
+2019-01-14 19:38:28 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@184899d4]
+2019-01-14 19:38:28 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:38:28 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:38:28 -==> Parameters: 
+2019-01-14 19:38:28 -<==      Total: 2
+2019-01-14 19:38:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@184899d4]
+2019-01-14 19:38:28 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@184899d4]
+2019-01-14 19:38:28 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@184899d4]
+2019-01-14 19:38:28 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@184899d4]
+2019-01-14 19:39:21 -Creating a new SqlSession
+2019-01-14 19:39:21 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:39:21 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:39:21 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:39:21 -<==      Total: 1
+2019-01-14 19:39:21 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c] from current transaction
+2019-01-14 19:39:21 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:39:21 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:39:21 -<==      Total: 1
+2019-01-14 19:39:21 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c] from current transaction
+2019-01-14 19:39:21 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:39:21 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:39:21 -<==      Total: 1
+2019-01-14 19:39:21 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c] from current transaction
+2019-01-14 19:39:21 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:39:21 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:39:21 -<==      Total: 1
+2019-01-14 19:39:21 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@149b463c]
+2019-01-14 19:39:21 -Creating a new SqlSession
+2019-01-14 19:39:21 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9093b2]
+2019-01-14 19:39:21 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:39:21 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:39:21 -==> Parameters: 
+2019-01-14 19:39:21 -<==      Total: 2
+2019-01-14 19:39:21 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9093b2]
+2019-01-14 19:39:21 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9093b2]
+2019-01-14 19:39:21 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9093b2]
+2019-01-14 19:39:21 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d9093b2]
+2019-01-14 19:40:25 -Creating a new SqlSession
+2019-01-14 19:40:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:40:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:40:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:40:25 -<==      Total: 1
+2019-01-14 19:40:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e] from current transaction
+2019-01-14 19:40:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:40:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:40:25 -<==      Total: 1
+2019-01-14 19:40:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e] from current transaction
+2019-01-14 19:40:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:40:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:40:25 -<==      Total: 1
+2019-01-14 19:40:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e] from current transaction
+2019-01-14 19:40:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:40:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:40:25 -<==      Total: 1
+2019-01-14 19:40:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d789d7e]
+2019-01-14 19:40:25 -Creating a new SqlSession
+2019-01-14 19:40:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439e259f]
+2019-01-14 19:40:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:40:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:40:25 -==> Parameters: 
+2019-01-14 19:40:25 -<==      Total: 2
+2019-01-14 19:40:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439e259f]
+2019-01-14 19:40:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439e259f]
+2019-01-14 19:40:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439e259f]
+2019-01-14 19:40:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@439e259f]
+2019-01-14 19:43:37 -Creating a new SqlSession
+2019-01-14 19:43:37 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:43:37 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:43:37 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:43:37 -<==      Total: 1
+2019-01-14 19:43:37 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88] from current transaction
+2019-01-14 19:43:37 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:43:37 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:43:37 -<==      Total: 1
+2019-01-14 19:43:37 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88] from current transaction
+2019-01-14 19:43:37 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:43:37 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:43:37 -<==      Total: 1
+2019-01-14 19:43:37 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88] from current transaction
+2019-01-14 19:43:37 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:43:37 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:43:37 -<==      Total: 1
+2019-01-14 19:43:37 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@79019e88]
+2019-01-14 19:43:37 -Creating a new SqlSession
+2019-01-14 19:43:37 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a14c32]
+2019-01-14 19:43:37 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:43:37 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:43:37 -==> Parameters: 
+2019-01-14 19:43:37 -<==      Total: 2
+2019-01-14 19:43:37 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a14c32]
+2019-01-14 19:43:37 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a14c32]
+2019-01-14 19:43:37 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a14c32]
+2019-01-14 19:43:37 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a14c32]
+2019-01-14 19:46:25 -Creating a new SqlSession
+2019-01-14 19:46:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:46:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:46:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:46:25 -<==      Total: 1
+2019-01-14 19:46:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986] from current transaction
+2019-01-14 19:46:25 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:46:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:46:25 -<==      Total: 1
+2019-01-14 19:46:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986] from current transaction
+2019-01-14 19:46:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:46:25 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:46:25 -<==      Total: 1
+2019-01-14 19:46:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986] from current transaction
+2019-01-14 19:46:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:46:25 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:46:25 -<==      Total: 1
+2019-01-14 19:46:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32416986]
+2019-01-14 19:46:25 -Creating a new SqlSession
+2019-01-14 19:46:25 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2d43d9]
+2019-01-14 19:46:25 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:46:25 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:46:25 -==> Parameters: 
+2019-01-14 19:46:25 -<==      Total: 2
+2019-01-14 19:46:25 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2d43d9]
+2019-01-14 19:46:25 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2d43d9]
+2019-01-14 19:46:25 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2d43d9]
+2019-01-14 19:46:25 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d2d43d9]
+2019-01-14 19:46:28 -Creating a new SqlSession
+2019-01-14 19:46:28 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:46:28 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:46:28 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:46:28 -<==      Total: 1
+2019-01-14 19:46:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86] from current transaction
+2019-01-14 19:46:28 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:46:28 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:46:28 -<==      Total: 1
+2019-01-14 19:46:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86] from current transaction
+2019-01-14 19:46:28 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:46:28 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:46:28 -<==      Total: 1
+2019-01-14 19:46:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86] from current transaction
+2019-01-14 19:46:28 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:46:28 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:46:28 -<==      Total: 1
+2019-01-14 19:46:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31eb1b86]
+2019-01-14 19:46:28 -Creating a new SqlSession
+2019-01-14 19:46:28 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5cff88]
+2019-01-14 19:46:28 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:46:28 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:46:28 -==> Parameters: 
+2019-01-14 19:46:28 -<==      Total: 2
+2019-01-14 19:46:28 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5cff88]
+2019-01-14 19:46:28 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5cff88]
+2019-01-14 19:46:28 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5cff88]
+2019-01-14 19:46:28 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e5cff88]
+2019-01-14 19:46:31 -Creating a new SqlSession
+2019-01-14 19:46:31 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:46:31 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:46:31 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:46:31 -<==      Total: 1
+2019-01-14 19:46:31 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa] from current transaction
+2019-01-14 19:46:31 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:46:31 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:46:31 -<==      Total: 1
+2019-01-14 19:46:31 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa] from current transaction
+2019-01-14 19:46:31 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:46:31 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:46:31 -<==      Total: 1
+2019-01-14 19:46:31 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa] from current transaction
+2019-01-14 19:46:31 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:46:31 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:46:31 -<==      Total: 1
+2019-01-14 19:46:31 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cabcbaa]
+2019-01-14 19:46:31 -Creating a new SqlSession
+2019-01-14 19:46:31 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d65674]
+2019-01-14 19:46:31 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:46:31 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:46:31 -==> Parameters: 
+2019-01-14 19:46:31 -<==      Total: 2
+2019-01-14 19:46:31 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d65674]
+2019-01-14 19:46:31 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d65674]
+2019-01-14 19:46:31 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d65674]
+2019-01-14 19:46:31 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d65674]
+2019-01-14 19:47:06 -Creating a new SqlSession
+2019-01-14 19:47:06 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:47:06 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:47:06 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:47:06 -<==      Total: 1
+2019-01-14 19:47:06 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0] from current transaction
+2019-01-14 19:47:06 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:47:06 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:47:06 -<==      Total: 1
+2019-01-14 19:47:06 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0] from current transaction
+2019-01-14 19:47:06 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:47:06 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:47:06 -<==      Total: 1
+2019-01-14 19:47:06 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0] from current transaction
+2019-01-14 19:47:06 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:47:06 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:47:06 -<==      Total: 1
+2019-01-14 19:47:06 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@417697d0]
+2019-01-14 19:47:06 -Creating a new SqlSession
+2019-01-14 19:47:06 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@406ea5d0]
+2019-01-14 19:47:06 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:47:06 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:47:06 -==> Parameters: 
+2019-01-14 19:47:06 -<==      Total: 2
+2019-01-14 19:47:06 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@406ea5d0]
+2019-01-14 19:47:06 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@406ea5d0]
+2019-01-14 19:47:06 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@406ea5d0]
+2019-01-14 19:47:06 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@406ea5d0]
+2019-01-14 19:47:10 -Creating a new SqlSession
+2019-01-14 19:47:10 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:47:10 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:47:10 -==> Parameters: 2019-01-14(String), 2019-01-14(String)
+2019-01-14 19:47:10 -<==      Total: 1
+2019-01-14 19:47:10 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd] from current transaction
+2019-01-14 19:47:10 -==>  Preparing: select count(*) from mac_discount left join mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? 
+2019-01-14 19:47:10 -==> Parameters: 2019-01-15(String), 2019-01-15(String)
+2019-01-14 19:47:10 -<==      Total: 1
+2019-01-14 19:47:10 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd] from current transaction
+2019-01-14 19:47:10 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:47:10 -==> Parameters: 2019-01-14(String), 2019-01-14(String), 0(Integer), 4(Integer)
+2019-01-14 19:47:10 -<==      Total: 1
+2019-01-14 19:47:10 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd] from current transaction
+2019-01-14 19:47:10 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId WHERE startTime<= ? AND endTime> ? limit ?,? 
+2019-01-14 19:47:10 -==> Parameters: 2019-01-15(String), 2019-01-15(String), 0(Integer), 4(Integer)
+2019-01-14 19:47:10 -<==      Total: 1
+2019-01-14 19:47:10 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28f8d2fd]
+2019-01-14 19:47:10 -Creating a new SqlSession
+2019-01-14 19:47:10 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28387fa6]
+2019-01-14 19:47:10 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1bc871ec] will be managed by Spring
+2019-01-14 19:47:10 -==>  Preparing: SELECT * FROM mac_discount LEFT JOIN mac_goods ON mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales limit 0,3 
+2019-01-14 19:47:10 -==> Parameters: 
+2019-01-14 19:47:10 -<==      Total: 2
+2019-01-14 19:47:10 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28387fa6]
+2019-01-14 19:47:10 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28387fa6]
+2019-01-14 19:47:10 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28387fa6]
+2019-01-14 19:47:10 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28387fa6]
+2019-01-14 19:47:49 -{dataSource-4} closed

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.OrdersMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="Orders" id="OrdersMap">
+		<id property="ordersId" column="ordersId" />
+		<result property="totalPrice" column="totalPrice" />
+		<result property="submitTime" column="submitTime"/>
+		<result property="payTime" column="payTime"/>
+		<result property="state" column="state"/>
+		<association property="user"
+			javaType="User">
+			<id property="userId" column="userId"></id>
+		</association>
+	</resultMap>
+
+	<resultMap type="Orders" id="OrdersDetailsMap">
+		<id property="ordersId" column="ordersId" />
+		<result property="totalPrice" column="totalPrice" />
+		<result property="state" column="state"/>
+		<collection property="odersTitleBlockList" ofType="OrdersTitleBlock" column="orderDetailsId">
+			<result property="number" column="number"></result>
+			<association property="sku"
+			javaType="Sku">
+				<id property="skuId" column="skuId"></id>
+				<result property="skuAttrs" column="skuAttrs"></result>
+				<result property="price" column="price"></result>
+				<result property="store" column="store"></result>
+				<result property="photoUrl" column="photoUrl"></result>
+				<association property="goods"
+			javaType="Goods">
+			<result column="goodsName" property="goodsName"/>
+			</association>
+			</association>
+		</collection>
+	</resultMap>
+	<!-- 定义查询的条件 -->
+	<sql id="sel_OrdersParams_List">
+		<where>
+			<if test="t.user != null">
+				<if test="t.user.userId!=null">
+					and u.userId=#{t.user.userId}
+				</if>
+			</if>
+			<if test="t.state != null">
+			and o.state = #{t.state}
+			</if>
+		</where>
+	</sql>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="OrdersMap">
+
+	</select>
+	<!-- 根据条件查一个 -->
+	<select id="selectByPrimaryKey" resultMap="OrdersMap">
+		select * from mac_orders o
+		left join mac_user u on o.userId=u.userId 
+		<include refid="sel_OrdersParams_List" />
+	</select>
+
+	<insert id="insert">
+		insert into mac_orders(userId,totalPrice,submitTime,payTime,state,recipientId) 
+		values(#{user.userId},#{totalPrice},#{submitTime},#{payTime},#{state},#{recipientInfo.recipientId});
+	</insert>
+	
+	<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from mac_orders o 
+		left join mac_user u on o.userId=u.userId 
+		<include refid="sel_OrdersParams_List" />
+	</select>
+	
+	<!-- 查询详细信息 -->
+	<select id="selectDetailsOrders" resultMap="OrdersDetailsMap">
+			SELECT o.*,s.*,g.`goodsName`,ot.number,(SELECT d.discountNum FROM mac_orders o 
+		LEFT JOIN mac_oders_titleblock ot ON o.ordersId=ot.ordersId
+		LEFT JOIN mac_sku s ON ot.skuId=s.skuId
+		LEFT JOIN mac_goods g ON g.goodsId=s.goodsId
+		LEFT JOIN mac_discount d ON g.`goodsId`=d.goodsId
+		WHERE o.ordersId=#{ordersId} AND SYSDATE() BETWEEN d.startTime AND d.endTime GROUP BY d.discountNum)AS discountNum FROM mac_orders o 
+		LEFT JOIN mac_oders_titleblock ot ON o.ordersId=ot.ordersId
+		LEFT JOIN mac_sku s ON ot.skuId=s.skuId
+		LEFT JOIN mac_goods g ON g.goodsId=s.goodsId
+		WHERE o.ordersId=#{ordersId}
+	</select>
+	<!-- 修改订单状态 -->
+	
+	<update id="updateByPrimaryKey">
+		update mac_orders 
+		<set>
+			<if test="t.state != null">state = #{t.state}, </if>
+		</set>
+		where ordersId=#{t.ordersId}
+	</update>
+	
+	<update id="updateShopcartSku">
+		update mac_oders_titleblock ot 
+		left join mac_orders o on ot.ordersId=o.ordersId 
+		set ordersId=#{ordersId} where skuId=#{skuId} and o.userId=#{userId}
+	</update>
+	<!-- 查询属性值 -->
+	<select id="selectOneAttrValue" resultType="AttrValue">
+		select * from mac_attrValue where attrValueId=#{attrId}
+	</select>
+</mapper>

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 20:01:36 CST 2018
+asm-5.0.4.pom>nexus-aliyun=
+asm-5.0.4.jar>nexus-aliyun=
+asm-5.0.4-sources.jar>nexus-aliyun=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 05 15:04:49 CST 2018
+commons-lang3-3.5.pom>nexus-aliyun=
+commons-lang3-3.5.jar>nexus-aliyun=
+commons-lang3-3.5-sources.jar>nexus-aliyun=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 20:02:28 CST 2018
+tomcat-annotations-api-9.0.13-sources.jar>nexus-aliyun=
+tomcat-annotations-api-9.0.13.pom>nexus-aliyun=
+tomcat-annotations-api-9.0.13.jar>nexus-aliyun=

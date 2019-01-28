@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.TypeAttributeMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="TypeAttribute"
+		id="TypeAttributeMap" autoMapping="true">
+	</resultMap>
+	<resultMap type="GoodsType"
+		id="GoodsTypeMap" autoMapping="true">
+	</resultMap>
+	<resultMap type="AttrName"
+		id="AttrNameMap" autoMapping="true">
+	</resultMap>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="TypeAttributeMap">
+		select mac_goodstype.typeId,mac_goodstype.typeName from mac_goodstype_attr,mac_goodstype where mac_goodstype_attr.typeId=mac_goodstype.typeId group by typeId
+		<if test="limit != null">
+			limit #{currentRecord},#{limit}
+		</if>
+	</select>
+
+
+	<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from (select *from mac_goodstype_attr group by typeId) as t
+	</select>
+
+	<!-- 查询属性 -->
+	<select id="findattrnames" resultMap="TypeAttributeMap">
+	select mac_attrname.attrName from mac_goodstype_attr ,mac_attrname
+	where mac_goodstype_attr.typeId=#{id} and mac_goodstype_attr.attrNameId=mac_attrname.attrNameId 
+	</select>
+	<!-- 查询未定义属性的类别 -->
+	<select id="selecttypeid" resultMap="GoodsTypeMap">
+	select * from mac_goodstype where typeId not in (select typeId from mac_goodstype_attr group by typeId) and typePId != 0 
+	</select>
+	<!-- 查询属性 -->
+	<select id="selectattr" resultMap="AttrNameMap">
+	select * from mac_attrname 
+	</select>
+	<!-- 添加 -->
+	<insert id="insert" useGeneratedKeys="true" keyProperty="typeattrid">
+		insert
+		into mac_goodstype_attr values (
+		null, #{typeId}, #{attrNameId}
+		)
+	</insert>
+	<!-- 删除 -->
+	<delete id="deleteByPrimaryKey">
+		delete from mac_goodstype_attr
+		where typeid = #{t.typeId}
+	</delete>
+	
+
+</mapper>

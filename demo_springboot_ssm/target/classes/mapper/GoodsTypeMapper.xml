@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.GoodsTypeMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="GoodsType" id="GoodsTypeMap" autoMapping="true">
+		<id property="typeId" column="typeId" />
+		<result property="typePId" column="typePId" />
+		<result property="typeName" column="typeName"/>
+	</resultMap>
+
+	<!-- 定义查询的条件 -->
+	<sql id="sel_GoodsTypeParams_List">
+		<where>
+			<if test="t.typeId != null">and typeId = #{t.typeId}</if>
+			<if test="t.typePId != null">and typePId =#{t.typePId}</if>
+			<if test="t.typeName != null">and typeName LIKE CONCAT('%',#{t.typeName},'%')</if>
+			<if test="t.sortkey != null">and sortkey = #{tsortkey}</if>
+		</where>
+		order by sortKey
+	</sql>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="GoodsTypeMap">
+		select
+		*
+		from mac_goodsType
+		<include refid="sel_GoodsTypeParams_List" />
+		<if test="limit != null">
+			limit #{currentRecord},#{limit}
+		</if>
+	</select>
+		<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from mac_goodsType
+		<include refid="sel_GoodsTypeParams_List" />
+	</select>
+		<!-- 查询主类 -->
+	<select id="selectpid" resultMap="GoodsTypeMap">
+		select * from mac_goodstype where typePId =0
+	</select>
+	<!-- 添加 -->
+	<insert id="insert" useGeneratedKeys="true" keyProperty="`typeid`">
+		insert
+		into mac_goodstype values (
+		#{typeId}, #{typePId}, #{typeName}, #{sortkey}
+		)
+	</insert>
+
+	<!-- 修改 -->
+	<update id="updateByPrimaryKey">
+		update mac_goodstype
+		<set>
+			<if test="t.typePId != null"> typepid = #{t.typePId},</if>
+			<if test="t.typeName != null"> typename =#{t.typeName},</if>
+			<if test="t.sortkey != null"> sortkey = #{t.sortkey}</if>
+		</set>
+		where typeid = #{t.typeId}
+	</update>
+
+	<!-- 删除 -->
+	<delete id="deleteByPrimaryKey">
+		delete from mac_goodstype
+		where typeid = #{t.typeId}
+	</delete>
+
+	<!-- 批量删除 -->
+	<delete id="deleteBatch">
+		delete from mac_goodstype where typeid in
+		<foreach item="typeId" collection="array" open="(" separator=","
+			close=")">
+			#{typeId}
+		</foreach>
+	</delete>
+</mapper>

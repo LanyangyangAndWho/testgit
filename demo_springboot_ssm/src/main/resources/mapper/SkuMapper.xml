@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.SkuMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="Sku"
+		id="skuMap" autoMapping="true">
+		<association javaType="Goods" property="goods" autoMapping="true" column="goodsId">
+			<id property="goodsId" column="goodsId"/>
+		</association>
+	</resultMap>
+	<resultMap type="AttrName"
+		id="attrNameMap" autoMapping="true">
+	</resultMap>
+	<resultMap type="AttrValue"
+		id="attrValueMap" autoMapping="true">
+	</resultMap>
+	<!-- 定义查询的条件 -->
+	<sql id="sel_SkuParams_List">
+		<where>
+			<if test="t.skuId != null">and skuid = #{t.skuId}</if>
+			<if test="t.goods.goodsName != null">and mac_goods.goodsname LIKE CONCAT('%',#{t.goods.goodsName},'%')</if>
+			<if test="t.goods.goodsId != null">and mac_goods.goodsid = #{t.goods.goodsId}</if>
+			<if test="t.price != null">and mac_sku.price = #{t.price}</if>
+			<if test="t.store != null">and mac_sku.store = #{t.store}</if>
+			<if test="t.skuSales != null">and mac_sku.skusales = #{t.skuSales}</if>
+			<if test="t.photoUrl != null">and mac_sku.photourl = #{t.photoUrl}</if>
+			and mac_goods.goodsid = mac_sku.goodsid
+		</where>
+		order by skuid desc
+	</sql>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="skuMap">
+		select mac_sku.skuid, mac_sku.price ,mac_sku.store,mac_sku.skusales,mac_sku.photourl,mac_goods.goodsid,mac_goods.goodsname from mac_sku,mac_goods
+		<include refid="sel_SkuParams_List" />
+		<if test="limit != null">
+			limit #{currentRecord},#{limit}
+		</if>
+	</select>
+	<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from mac_sku
+	</select>
+	<!-- 查询拥有属性 -->
+	<select id="findattrname" resultMap="attrNameMap">
+	select attrName,attrNameId from mac_attrname where attrNameId in (select attrNameId from mac_goodstype_attr where typeid=(select typeid  from mac_goods where mac_goods.goodsid = #{goodsId}))
+	</select>
+	<!-- 查询拥有属性的值 -->
+	<select id="findattrvalue" resultMap="attrValueMap">
+	select * from mac_attrvalue where attrNameId= #{attrNameId} and skuId=#{skuId}
+	</select>
+	<!-- 添加 -->
+	<insert id="insert" useGeneratedKeys="true" keyProperty="skuid">
+		insert
+		into mac_sku values (
+		#{skuId}, #{goods.goodsId}, #{price}, #{store},0,#{photoUrl}
+		)
+	</insert>
+	<!-- 新增的库存id-->
+	<select id="maxid" resultType="java.lang.Integer">
+		select max(skuId) from mac_sku
+	</select>
+	<!-- 添加属性值 -->
+	<insert id="addvalue" useGeneratedKeys="true" keyProperty="attrvalueid">
+		insert
+		into mac_attrvalue values (
+		#{attrValueId}, #{attrValue}, #{attrNameId}, #{skuId}
+		)
+	</insert>
+	<!-- 删除外键 -->
+	<delete id="deletefk">
+		delete from mac_attrvalue
+		where skuid = #{skuId}
+	</delete>
+	<!-- 删除 -->
+	<delete id="deleteByPrimaryKey">
+		delete from mac_sku
+		where skuid = #{t.skuId}
+	</delete>
+
+	<!-- 批量删除外键-->
+	<delete id="deleteBatchfk">
+		delete from mac_attrvalue where skuid in
+		<foreach item="skuid" collection="array" open="(" separator=","
+			close=")">
+			#{skuId}
+		</foreach>
+	</delete>
+	<!-- 批量删除 -->
+	<delete id="deleteBatch">
+		delete from mac_sku where skuid in
+		<foreach item="skuid" collection="array" open="(" separator=","
+			close=")">
+			#{skuId}
+		</foreach>
+	</delete>
+</mapper>

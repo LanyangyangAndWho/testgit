@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 20:01:55 CST 2018
+objenesis-2.6.pom>nexus-aliyun=
+objenesis-2.6-sources.jar>nexus-aliyun=
+objenesis-2.6.jar>nexus-aliyun=

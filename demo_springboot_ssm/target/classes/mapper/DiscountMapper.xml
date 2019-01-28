@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.DiscountMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="Discount" id="discountMap" >
+		<association property="goods"
+			javaType="Goods" />	
+		
+	</resultMap>
+
+	<!-- 定义查询的条件 -->
+	<sql id="sel_DiscountParams_List">
+		<where>
+			<if test="t.discountId != null">and discountid = #{t.discountId}</if>
+			<if test="t.Goods.goodsName != null">and goodsName LIKE CONCAT('%',#{t.Goods.goodsName},'%')</if>
+			<if test="t.Goods.goodsId != null">and goodsid = #{t.Goods.goodsId}</if>
+			<if test="t.discountNum != null">and discountNum = #{t.discountNum}</if>
+			<if test="t.startTime != null">and starttime = #{t.startTime}</if>
+			<if test="t.endTime != null">and endtime = #{t.endTime}</if>
+			and mac_goods.goodsid = mac_discount.goodsId
+		</where>
+		order by discountid desc
+	</sql>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="discountMap">
+		select
+		discountid ,
+		discountnum,
+		starttime,
+		endtime,
+		mac_goods.goodsid,
+		mac_goods.goodsname
+		from mac_goods,mac_discount
+		<include refid="sel_DiscountParams_List" />
+		<if test="limit != null">
+			limit #{currentRecord},#{limit}
+		</if>
+	</select>
+	 <!-- 查询今日特卖 -->
+ 	
+	<select id="buytoday" resultMap="discountMap">
+		SELECT * FROM mac_discount LEFT JOIN mac_goods ON  mac_goods.goodsId=mac_discount.goodsId WHERE startTime&lt;= #{now} AND endTime&gt; #{now}
+		<if test="limit != null">
+			limit #{currentRecord},#{limit}
+		</if>
+	</select> 
+	<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from mac_goods,mac_discount
+		<include refid="sel_DiscountParams_List" />
+	</select>	
+	<!-- 查询行数 -->
+	<select id="findRow" resultType="java.lang.Long">
+		select count(*) from mac_discount left join mac_goods ON  mac_goods.goodsId=mac_discount.goodsId WHERE startTime&lt;= #{now} AND endTime&gt; #{now}
+	</select>	
+	 <!-- 查询团购销量榜 -->	
+	<select id="buyDesc" resultMap="discountMap">
+		SELECT * FROM mac_discount LEFT JOIN mac_goods ON  mac_goods.goodsId=mac_discount.goodsId order by mac_goods.supSales  limit 0,3
+	</select> 
+	<!-- 查询单个 -->
+	<select id="selectByPrimaryKey" resultMap="discountMap">
+		select * from mac_discount
+		where discountid = #{t.discountId}
+	</select>
+
+	<!-- 添加 -->
+	<insert id="insert" useGeneratedKeys="true" keyProperty="discountid">
+		insert
+		into mac_discount values (
+		#{discountId}, #{goods.goodsId}, #{discountNum},#{startTime},#{endTime}
+		)
+	</insert>
+
+	<!-- 修改 -->
+	<update id="updateByPrimaryKey">
+		update mac_discount
+		<set>
+			<if test="t.goods.goodsId != null">goodsid = #{t.goods.goodsId}, </if>
+			<if test="t.discountNum != null">discountnum = #{t.discountNum},</if>
+			<if test="t.startTime != null">starttime = #{t.startTime},</if>
+			<if test="t.endTime != null">endtime = #{t.endTime},</if>
+		</set>
+		where discountid = #{t.discountId}
+	</update>
+
+	<!-- 删除 -->
+	<delete id="deleteByPrimaryKey">
+		delete from mac_discount
+		where discountid = #{t.discountId}
+	</delete>
+
+	<!--批量删除 -->
+	<delete id="deleteBatch">
+		delete from mac_discount where discountid in
+		<foreach item="discountId" collection="array" open="(" separator=","
+			close=")">
+			#{discountId}
+		</foreach>
+	</delete>
+
+</mapper>

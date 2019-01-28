@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.GoodsDetailsMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="Goods" id="GoodsMap">
+		<id property="goodsId" column="goodsId" />
+		<result property="goodsName" column="goodsName" />
+		<result property="price" column="price"/>
+		<result property="addTimes" column="addTimes"/>
+		<result property="supSales" column="supSales"/>
+		<result property="commentNum" column="commentNum"/>
+		<result property="defaultPhotoUrl" column="defaultPhotoUrl"/>
+		<result property="detailsPhotoUrl" column="detailsPhotoUrl"/>
+		<association property="goodsType"
+			javaType="GoodsType">
+			<id property="typeId" column="typeId"></id>
+			<result property="typePId" column="typePId"></result>
+			<result property="typeName" column="typeName"></result>
+		</association>
+		<collection property="attrList" ofType="AttrName" column="attrNameId">
+			<id column="attrNameId" property="attrNameId"></id>
+			<result column="attrName" property="attrName"></result>
+			<collection property="attrValueList" ofType="AttrValue" column="attrValueId">
+				<id column="attrValueId" property="attrValueId"></id>
+				<result column="attrValue" property="attrValue"></result>
+				<result column="attrNameId" property="attrNameId"></result>
+			</collection>
+		</collection>
+	</resultMap>
+	
+	<resultMap type="Sku" id="SkuMap">
+		<id property="skuId" column="skuId"></id>
+		<result property="skuAttrs" column="skuAttrs"></result>
+		<result property="price" column="price"></result>
+		<result property="activitiPrice" column="activitiPrice"></result>
+		<result property="store" column="store"></result>
+		<result property="photoUrl" column="photoUrl"></result>
+	</resultMap>
+	
+	<!-- 定义查询的条件 -->
+	<sql id="sel_GoodsParams_List">
+		<where>
+			<if test="t.goodsId != null">and goodsId = #{t.goodsId}</if>
+			<if test="t.goodsName != null">and goodsName =LIKE CONCAT('%',#{t.goodsName},'%')</if>
+			<if test="t.addTimes != null">and addTimes = #{t.addTimes}</if>
+			<if test="t.supSales != null">and supSales = #{t.supSales}</if>
+			<if test="t.commentNum != null">and commentNum = #{t.commentNum}</if>
+			<if test="t.goodsType.typeId != null">and g.typeId = #{t.goodsType.typeId}</if>
+			<if test="t.goodsType.typePId != null">and typePId = #{t.goodsType.typePId}</if>
+			<if test="t.goodsType.typeName != null">and typeName = #{t.goodsType.typeName}</if>
+			and t.typeId = g.typeId
+		</where>
+			<if test="t.sort=!null">
+				<if test="t.sort=='volume'">group by supSales</if>
+				<if test="t.sort=='price'">group by price</if>
+				<if test="t.sort=='volume'">and addTimes between current_date()-7 and sysdate()</if>
+			</if>
+			<if test="t.sort==null">
+			order by goodsId
+			</if>
+	</sql>
+	<!-- 查询商品详情信息-->
+	<select id="selectGoodsDetails" resultMap="GoodsMap">
+		SELECT t.*,g.*,ga.*,an.attrName,av.attrValue 
+		FROM mac_goods g 
+		LEFT JOIN mac_goodsType t ON g.typeId=t.typeId 
+		LEFT JOIN  mac_goods_attr_conn ga ON g.goodsId=ga.goodsId 
+		LEFT JOIN mac_attrName an ON ga.attrNameId=an.attrNameId 
+		LEFT JOIN mac_attrValue av ON ga.attrValueId=av.attrValueId 
+		WHERE ga.goodsId=#{goodsId}
+	</select>
+	
+	<!-- 判断是否收藏 -->
+	<select id="isOrCollect" resultType="java.lang.Long">
+		select count(*) from mac_user_goods where userId=#{userId} and goodsId=#{goodsId}
+	</select>
+	<!-- 查询sku表 -->
+	<select id="selectSkuList" resultMap="SkuMap">
+		select * from mac_sku where  goodsId=#{goodsId}
+	</select>
+	<!-- 添加收藏 -->
+	<insert id="addCollectGoods">
+		insert into mac_user_goods(userId,goodsId) values(#{userId},#{goodsId})
+	</insert>
+	<!-- 取消收藏 -->
+	<delete id="delCollectGoods">
+		delete from mac_user_goods
+		where goodsId = #{goodsId} and userId=#{userId}
+	</delete>
+</mapper>

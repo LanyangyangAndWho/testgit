@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jan 14 14:29:11 CST 2019
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact com.myhopu\:zhenzi\:jar\:javadoc\:1.0.0 from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: maven.aliyun.com
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1547447351208

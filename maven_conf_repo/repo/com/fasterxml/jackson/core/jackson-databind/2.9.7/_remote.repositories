@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 20:00:08 CST 2018
+jackson-databind-2.9.7-sources.jar>nexus-aliyun=
+jackson-databind-2.9.7.pom>nexus-aliyun=
+jackson-databind-2.9.7.jar>nexus-aliyun=

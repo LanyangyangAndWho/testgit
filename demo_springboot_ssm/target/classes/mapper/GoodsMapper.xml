@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.GoodsMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="Goods" id="GoodsMap" autoMapping="true">
+		<id property="goodsId" column="goodsId" />
+<!-- 		<result property="goodsName" column="goodsName" />
+		<result property="price" column="price"/>
+		<result property="addTimes" column="addTimes"/>
+		<result property="supSales" column="supSales"/>
+		<result property="commentNum" column="commentNum"/>
+		<result property="defaultPhotoUrl" column="defaultPhotoUrl"/> -->
+		<association property="goodsType"
+			javaType="GoodsType" autoMapping="true">
+			<id property="typeId" column="typeId"></id>
+
+		</association>
+	</resultMap>
+	<resultMap type="GoodsType" id="GoodsTypeMap" autoMapping="true">
+	</resultMap>
+	<!-- 定义查询的条件 -->
+	<sql id="sel_GoodsParams_List">
+		<where>
+			<if test="t.goodsId != null">and goodsId = #{t.goodsId}</if>
+			<if test="t.goodsName != null">and goodsName =LIKE CONCAT('%',#{t.goodsName},'%')</if>
+			<if test="t.addTimes != null">and addTimes = #{t.addTimes}</if>
+			<if test="t.supSales != null">and supSales = #{t.supSales}</if>
+			<if test="t.commentNum != null">and commentNum = #{t.commentNum}</if>
+			<if test="t.goodsType.typeId != null">and g.typeId = #{t.goodsType.typeId}</if>
+			<if test="t.goodsType.typePId != null">and typePId = #{t.goodsType.typePId}</if>
+			<if test="t.goodsType.typeName != null">and typeName = #{t.goodsType.typeName}</if>
+			and t.typeId = g.typeId
+		</where>
+			<if test="t.sort=!null">
+				<if test="t.sort=='volume'">group by supSales</if>
+				<if test="t.sort=='price'">group by price</if>
+				<if test="t.sort=='volume'">and addTimes between current_date()-7 and sysdate()</if>
+			</if>
+			<if test="t.sort==null">
+			order by goodsId
+			</if>
+	</sql>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="GoodsMap">
+		select
+		*
+		from mac_goods g,mac_goodsType t
+		<include refid="sel_GoodsParams_List" />
+		<if test="limit != null">
+			limit #{currentRecord},#{limit}
+		</if>
+	</select>
+		<!-- 查询单个 -->
+	<select id="selectByPrimaryKey" resultMap="GoodsMap">
+		select * from mac_goods
+		where goodsId = #{t.goodsId}
+	</select>
+	<!-- 查询类别 -->
+	<select id="selectTypeId" resultMap="GoodsTypeMap">
+	select * from mac_goodstype where  typePId != 0 
+	</select>
+	<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from mac_goods g,mac_goodsType t
+		<include refid="sel_GoodsParams_List" />
+	</select>
+	<!-- 查询相似商品信息 -->
+	<select id="selectLikeGoods" resultMap="GoodsMap">
+		SELECT g.goodsId,g.goodsName,g.price,g.supSales,g.defaultPhotoUrl
+		FROM mac_goods g LEFT JOIN mac_goodsType t ON g.`typeId`=t.`typeId` 
+		WHERE t.`typeId`=#{typeId} AND g.`goodsId` NOT IN (#{goodsId}) ORDER BY g.`supSales` DESC LIMIT 5
+	</select>
+	
+	<!-- 添加 -->
+	<insert id="insert" useGeneratedKeys="true" keyProperty="goodsid">
+		insert
+		into mac_goods values (
+		#{goodsId}, #{goodsType.typeId}, #{goodsName}, #{price},#{addTimes},0,0,#{defaultPhotoUrl},#{detailsPhotoUrl}
+		)
+	</insert>
+		<!-- 修改 -->
+	<update id="updateByPrimaryKey">
+		update mac_goods
+		<set>
+			<if test="t.goodsType.typeId != null">typeid = #{t.goodsType.typeId}, </if>
+			<if test="t.goodsname != null">goodsname = #{t.goodsName}, </if>
+			<if test="t.price != null">price = #{t.price},</if>
+			<if test="t.addTimes != null">addtimes = #{t.addTimes}, </if>
+			<if test="t.defaultphotourl != null">defaultphotourl = #{t.defaultPhotoUrl}, </if>
+			<if test="t.detailsphotourl != null">detailsphotourl = #{t.detailsPhotoUrl} </if>
+		</set>
+		where goodsid = #{t.goodsId}
+	</update>
+	
+	<!-- 删除 -->
+	<delete id="deleteByPrimaryKey">
+		delete from mac_goods
+		where goodsid = #{t.goodsId}
+	</delete>
+
+	<!-- 批量删除 -->
+	<delete id="deleteBatch">
+		delete from mac_goods where goodsid in
+		<foreach item="goodsid" collection="array" open="(" separator=","
+			close=")">
+			#{goodsId}
+		</foreach>
+	</delete>
+</mapper>

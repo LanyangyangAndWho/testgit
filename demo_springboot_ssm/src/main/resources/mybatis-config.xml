@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- MyBatis的配置项 -->
+	<settings>
+		<!-- 设置是否启用缓存 -->
+		<setting name="cacheEnabled" value="true" />
+		<!-- 如果null被当作值来传递，对于所有可能为空的列，JDBC Type是需要的 -->
+		<setting name="jdbcTypeForNull" value="NULL" />
+		<!-- 默认PARTIAL表示只对非嵌套的resultMap进行自动映射，FULL表示对所有的resultMap都进行自动映射 -->
+		<setting name="autoMappingBehavior" value="FULL" />
+		<!-- 开启自动驼峰命名规则的映射，即从数据库列名a_column到java属性名aColumn的类似映射 -->
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+
+	<!-- 配置类型别名 -->
+	<typeAliases>
+		<!-- 设置某一个包下的所有类的别名，默认别名为类名 -->
+		<package name="com.myhopu.entity" />
+	</typeAliases>
+</configuration>

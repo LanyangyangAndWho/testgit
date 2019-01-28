@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 18 11:07:09 CST 2018
+mail-1.5.0-b01.jar>nexus-aliyun=
+mail-1.5.0-b01-sources.jar>nexus-aliyun=
+mail-1.5.0-b01.pom>nexus-aliyun=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jan 13 14:52:47 CST 2019
+kaptcha-2.3.2.pom>nexus-aliyun=
+kaptcha-2.3.2-sources.jar>nexus-aliyun=
+kaptcha-2.3.2.jar>nexus-aliyun=

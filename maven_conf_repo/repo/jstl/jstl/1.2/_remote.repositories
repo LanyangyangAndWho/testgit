@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 20:02:12 CST 2018
+jstl-1.2.pom>nexus-aliyun=
+jstl-1.2.jar>nexus-aliyun=
+jstl-1.2-sources.jar>nexus-aliyun=

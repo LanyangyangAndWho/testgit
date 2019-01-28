@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Dec 04 20:00:16 CST 2018
+hibernate-validator-6.0.13.Final.jar>nexus-aliyun=
+hibernate-validator-6.0.13.Final-sources.jar>nexus-aliyun=
+hibernate-validator-6.0.13.Final.pom>nexus-aliyun=

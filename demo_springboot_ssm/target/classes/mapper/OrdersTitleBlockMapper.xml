@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myhopu.mapper.OrdersTitleBlockMapper">
+
+	<!-- 结果集映射 -->
+	<resultMap type="OrdersTitleBlock" id="OrdersTitleBlockMap">
+		<id property="orderDetailsId" column="orderDetailsId" />
+		<result property="number" column="number" />
+		<association property="sku"
+			javaType="Sku">
+			<id property="skuId" column="skuId"/>
+		</association>
+		<association property="orders"
+			javaType="Orders">
+			<id property="ordersId" column="ordersId"></id>
+		</association>
+	</resultMap>
+
+	<!-- 定义查询的条件 -->
+	<sql id="sel_OrdersTitleBlockParams_List">
+		<where>
+			<if test="t.sku.skuId != null">and s.skuId = #{t.sku.skuId}</if>
+			<if test="t.orders.ordersId != null">and o.ordersId = #{t.orders.ordersId}</if>
+		</where>
+	</sql>
+
+	<!-- 查询所有 -->
+	<select id="findAll" resultMap="OrdersTitleBlockMap">
+		select * from mac_oders_titleblock ot 
+		left join mac_orders o on ot.ordersId=o.ordersId
+		left join mac_sku s on ot.skuId=s.skuId
+		<include refid="sel_OrdersTitleBlockParams_List" />
+	</select>
+	
+	<insert id="insert">
+		insert into mac_oders_titleblock (ordersId,skuId,number) 
+		values(#{orders.ordersId},#{sku.skuId},#{number});
+	</insert>
+		<!-- 根据条件查一个 -->
+	<select id="selectByPrimaryKey" resultMap="OrdersTitleBlockMap">
+		select * from mac_oders_titleblock ot 
+		left join mac_orders o on ot.ordersId=o.ordersId
+		left join mac_sku s on ot.skuId=s.skuId
+		<include refid="sel_OrdersTitleBlockParams_List" />
+	</select>
+	<!-- 查询行数 -->
+	<select id="findRows" resultType="java.lang.Long">
+		select count(*) from mac_oders_titleblock ot 
+		left join mac_orders o on ot.ordersId=o.ordersId
+		left join mac_sku s on ot.skuId=s.skuId
+		<include refid="sel_OrdersTitleBlockParams_List" />
+	</select>
+	
+	<!-- 修改 -->
+	<update id="updateByPrimaryKey">
+		update mac_oders_titleblock ot 
+		left join mac_orders o on ot.ordersId=o.ordersId
+		left join mac_sku s on ot.skuId=s.skuId
+		<set>
+			<if test="t.number != null">ot.number = #{t.number}, </if>
+		</set>
+		<include refid="sel_OrdersTitleBlockParams_List" />
+	</update>
+	<!-- 查属性值 -->
+	<select id="selectOneAttrValue" resultType="java.lang.String">
+		select attrValue from mac_attrValue where attrValueId=#{attrId}
+	</select>
+</mapper>
